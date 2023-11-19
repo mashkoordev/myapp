@@ -89,7 +89,7 @@ class AccountPage extends StatelessWidget {
                   decoration:const  InputDecoration(
                     suffixIcon: Icon(Icons.change_circle_outlined,color: Colors.grey,),
                       icon: Icon(Icons.call,size: 32,color: Colors.grey,),
-                      hintText: "Enter Your Country.NO ",
+
                       labelText: 'Phone',
                       floatingLabelStyle: TextStyle(color: Colors.black),
                       focusedBorder: OutlineInputBorder(
