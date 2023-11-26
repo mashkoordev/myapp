@@ -50,14 +50,14 @@ class FavoritePage extends StatelessWidget {
                           )
                         ],
                         image:const  DecorationImage(
-                          image: AssetImage('assets/td.png'),
+                          image: AssetImage('assets/pdf.png'),
                           fit: BoxFit.cover,
                         ),
                       ),
                     ),
                   ),
                   const SizedBox(width: 5,),
-                  const Text('TECH DRIVE',style: TextStyle(
+                  const Text('PDF Libarary',style: TextStyle(
                       color: Colors.black87,
                       fontSize: 28,
                       fontWeight: FontWeight.bold
@@ -86,7 +86,7 @@ class FavoritePage extends StatelessWidget {
                     child:Column(
                       children:[
                         const SizedBox(height: 10,),
-                        const Text('Reset Password',style: TextStyle(
+                        const Text('Sign in',style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 22,
                           color: Colors.blue,
@@ -162,13 +162,14 @@ class FavoritePage extends StatelessWidget {
                             color: Colors.blue,
                             borderRadius: BorderRadius.circular(20),
                           ),
-                          child: const Center(child: Text('Reset Password',
+                          child: const Center(child: Text('Sign in',
                             style: TextStyle(fontSize: 22,color: Colors.white),)),
                         ),
                         const SizedBox(height: 5,),
                         const Padding(
                           padding: EdgeInsets.only(left: 180),
-                          child:  Text('Help?',style: TextStyle(fontSize: 18,color: Colors.blue),),
+                          child:  Text('Sign up?',style: TextStyle(fontSize: 18,color: Colors.blue),),
+
                         ),
                       ],
                     ),

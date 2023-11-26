@@ -103,7 +103,7 @@ class DrawerScreen extends StatelessWidget {
                 color: Colors.white,
                 child: ListTile(
                   leading: Icon(Icons.computer),
-                  title: const Text('Get Free WPS for PC'),
+                  title: const Text('Get Free pdf for PC'),
                   onTap: () {
                     // Update the app state...
                     // Then close the drawer

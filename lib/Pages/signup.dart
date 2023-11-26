@@ -28,9 +28,9 @@ class _UploadPageState extends State<UploadPage> {
                     keyboardType: TextInputType.text,
                     cursorColor: Colors.white10,
                     decoration: InputDecoration(
-                      icon: Icon(Icons.search,color: Colors.pink,),
+                      icon: Icon(Icons.search,color: Colors.green,),
                       border: InputBorder.none,
-                      hintText: 'search here',hintStyle: TextStyle(fontSize: 18,color: Colors.pink),
+                      hintText: 'search here',hintStyle: TextStyle(fontSize: 18,color: Colors.green),
                     ),
                   ),
                 ),
@@ -53,14 +53,14 @@ class _UploadPageState extends State<UploadPage> {
                           )
                         ],
                         image:const  DecorationImage(
-                          image: AssetImage('assets/td.png'),
+                          image: AssetImage('assets/pdf.png'),
                           fit: BoxFit.cover,
                         ),
                       ),
                     ),
                   ),
                   const SizedBox(width: 5,),
-                  const Text('TECH DRIVE',style: TextStyle(
+                  const Text('PDF Libarary',style: TextStyle(
                       color: Colors.black87,
                       fontSize: 28,
                       fontWeight: FontWeight.bold
@@ -89,14 +89,14 @@ class _UploadPageState extends State<UploadPage> {
                     child:Column(
                       children:[
                         const SizedBox(height: 10,),
-                        const Text('SignUp',style: TextStyle(
+                        const Text('Sign up',style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 22,
                           color: Colors.green,
                         ),),
                         const SizedBox(height: 5,),
                         const Text('To get this App Features.!\n'
-                            'Please SignUp Firstly...?',textAlign: TextAlign.center,style: TextStyle(
+                            'Please Sign in Firstly...?',textAlign: TextAlign.center,style: TextStyle(
                           fontWeight: FontWeight.normal,
                           fontSize: 18,
                         ),),
@@ -222,7 +222,7 @@ class _UploadPageState extends State<UploadPage> {
                             color: Colors.green,
                             borderRadius: BorderRadius.circular(20),
                           ),
-                          child: const Center(child: Text('SignUp',
+                          child: const Center(child: Text('Sign up',
                             style: TextStyle(fontSize: 22,color: Colors.white),)),
                         ),
                         const  SizedBox(height: 5,),
@@ -238,7 +238,7 @@ class _UploadPageState extends State<UploadPage> {
                                 ),),
                             ),
                               SizedBox(width: 4,),
-                              Text('Login',
+                              Text('Sign in',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,

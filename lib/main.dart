@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:new_bar/Pages/account_pages.dart';
-import 'package:new_bar/Pages/favorite_pages.dart';
-import 'package:new_bar/Pages/home_page.dart';
-import 'package:new_bar/Pages/upload_pages.dart';
+import 'package:flutter/services.dart';
+import 'package:new_bar/Pages/files.dart';
+import 'package:new_bar/Pages/signin.dart';
+import 'package:new_bar/Pages/recent.dart';
+import 'package:new_bar/Pages/signup.dart';
+
 
 
 void main() {
@@ -18,11 +20,12 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   int currentIndex = 0;
-  final Screens =const [
+  final Screens =[
     HomePage(),
     UploadPage(),
     FavoritePage(),
     AccountPage(),
+    TestPage(),
   ];
 
   @override
@@ -42,25 +45,31 @@ class _MyAppState extends State<MyApp> {
         ),
         items: const [
           BottomNavigationBarItem(
-            icon: Icon(Icons.logout_outlined,
+            icon: Icon(Icons.recent_actors_sharp,
             ),
-            label: "Login",
+            label: "Recent",
               backgroundColor: Colors.red,
           ),
           BottomNavigationBarItem(
               icon: Icon(Icons.person_add_alt_1_outlined,
               ),
-              label: "SignUp",
+              label: "Signup",
               backgroundColor: Colors.green,
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.lock_reset_outlined,
+              icon: Icon(Icons.person,
               ),
-              label: "Reset Password",
+              label: "Sign in",
               backgroundColor: Colors.blue,
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.account_box,
+              icon: Icon(Icons.file_copy,
+              ),
+              label: "files",
+              backgroundColor: Colors.black
+          ),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.home,
               ),
               label: "Profile",
               backgroundColor: Colors.black
