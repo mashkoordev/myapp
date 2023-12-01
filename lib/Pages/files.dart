@@ -36,7 +36,7 @@ class AccountPage extends StatelessWidget {
                height: 100,
              ),
              const Text('FROM'),
-              const Text('Muhammad Mashkoor',style: TextStyle(
+              const Text('MUHAMMAD MASHKOOR',style: TextStyle(
                   fontStyle:FontStyle.italic,fontWeight: FontWeight.bold,fontSize: 20,
                   color: Color(0xff786abc)),),
                 ],
