@@ -44,7 +44,7 @@ class _UploadPageState extends State<UploadPage> {
                       height: 50,
                       width: 50,
                       decoration:BoxDecoration(
-                        color: Colors.white,
+                        color: Colors.blueGrey,
                         borderRadius: BorderRadius.circular(100),
                         boxShadow:const  [
                           BoxShadow(
